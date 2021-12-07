@@ -1,7 +1,10 @@
 turn = 1;
 a1filled = false;
+a1win = x;
 b1filled = false;
+b1win = x;
 c1filled = false;
+c1win = x;
 a2filled = false;
 b2filled = false;
 c2filled = false;
@@ -24,6 +27,7 @@ window.onload = function() {
       document.querySelector("#a1 img").style.display = "block";
       turn = 2;
       a1filled = true;
+      a1win = x;
 
     } else {
       document.querySelector("#a1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -51,6 +55,7 @@ window.onload = function() {
       document.querySelector("#b1 img").style.display = "block";
       turn = 2;
       b1filled = true;
+      b1win = x;
 
     } else {
       document.querySelector("#b1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -78,6 +83,7 @@ window.onload = function() {
       document.querySelector("#c1 img").style.display = "block";
       turn = 2;
       c1filled = true;
+      c1win = x;
 
     } else {
       document.querySelector("#c1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -257,4 +263,44 @@ window.onload = function() {
   }
  
 }
+  
+ 
+  
+  if (a1win,b1win,c1win == x) {
+    
+    
+    alert("Player 1 Wins!!")
+    
+  } else {
+    
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
+
