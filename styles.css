@@ -62,12 +62,6 @@ button {
 }
 
 
-#a1, #a2, #a3, #b1, #b2, #b3, #c1, #c2, #c3 {
-  background-color: #000000;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
 
 
 
