@@ -1,0 +1,18 @@
+[08-Dec-2021 22:45:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/output.php on line 8
+[08-Dec-2021 22:45:32 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/output.php on line 8
+[08-Dec-2021 22:49:28 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/output.php on line 8
+[08-Dec-2021 22:49:55 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/output.php on line 8
+[09-Dec-2021 00:34:42 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/result.php on line 8
+[09-Dec-2021 00:46:44 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 3
+[09-Dec-2021 00:46:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 3
+[09-Dec-2021 00:47:29 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 2
+[09-Dec-2021 00:48:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 2
+[09-Dec-2021 00:48:07 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/marleysc/public_html/MP1/output.php on line 24
+[09-Dec-2021 00:53:26 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/output.php on line 3
+[09-Dec-2021 00:58:04 UTC] PHP Parse error:  syntax error, unexpected '$colorBottom' (T_VARIABLE) in /home/marleysc/public_html/MP1/output.php on line 6
+[09-Dec-2021 00:58:14 UTC] PHP Parse error:  syntax error, unexpected '$colorBottom' (T_VARIABLE) in /home/marleysc/public_html/MP1/output.php on line 6
+[09-Dec-2021 00:58:29 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 2
+[09-Dec-2021 00:59:15 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 2
+[09-Dec-2021 00:59:26 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 2
+[09-Dec-2021 18:06:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/marleysc/public_html/MP1/index.php on line 2
+[09-Dec-2021 20:25:36 UTC] PHP Parse error:  syntax error, unexpected '$colorBottom' (T_VARIABLE) in /home/marleysc/public_html/MP1/output.php on line 6

@@ -32,3 +32,5 @@ $result = $db->query($sql);
 if (!$result) die("Error: " . $sql . "<br>" . $db->error);
 
 */
+
+?>

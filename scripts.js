@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 turn = 1;
 winner = 0;
 a1filled = false;
@@ -433,4 +431,3 @@ function checkWin() {
 }
                                       
                                                         
->>>>>>> d62b854e32c7ed90bfdec07dc46e5416e16b9cc9
