@@ -26,7 +26,9 @@ window.onload = function() {
 
   document.querySelector("#a1").onclick = function() {
 
+  
     if (a1filled == false) {
+      
 
       if (turn == 1) {
         // set the <div>'s inner <img> source to the O image, then make it display visibly 
@@ -295,11 +297,11 @@ window.onload = function() {
     }, 100);
   }
 
+  
 
 
 
-
-
+  
 
 
 } // end of window.onload
@@ -310,12 +312,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((a1win == "o") && (b1win == "o") && (c1win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -325,12 +331,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((a2win == "o") && (b2win == "o") && (c2win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -340,12 +350,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((a3win == "o") && (b3win == "o") && (c3win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -355,12 +369,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((a1win == "o") && (a2win == "o") && (a3win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -370,12 +388,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((b1win == "o") && (b2win == "o") && (b3win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -385,12 +407,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((c1win == "o") && (c2win == "o") && (c3win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -400,12 +426,16 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((a3win == "o") && (b2win == "o") && (c1win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
@@ -415,16 +445,28 @@ function checkWin() {
 
     alert("Player 1 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
   if ((c3win == "o") && (b2win == "o") && (a1win == "o")) {
 
     alert("Player 2 Wins!!");
     winner = 1;
+    location.reload();
+    return false;
 
   }
 
+  
+  if ((a1win != "") && (a2win != "") && (a3win != "") && (b1win != "") && (b2win != "") && (b3win != "") && (c1win != "") && (c2win != "") && (c3win != "")) {
+    
+    alert("Tie Game!!");
+    location.reload();
+    return false;
+    
+  }
+  
 
-}
-                                      
+}   
                                                         
