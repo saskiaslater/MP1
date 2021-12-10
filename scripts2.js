@@ -107,6 +107,7 @@ window.onload = function() {
         turn = 2;
         a1filled = true;
         a1win = "x";
+        saveMark("x","a1");
         
         
 
@@ -116,6 +117,7 @@ window.onload = function() {
         turn = 1;
         a1filled = true;
         a1win = "o";
+        saveMark("o","a1");
         
       }
 
@@ -140,6 +142,7 @@ window.onload = function() {
         turn = 2;
         b1filled = true;
         b1win = "x";
+        saveMark("x","b1");
 
       } else {
         document.querySelector("#b1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -147,6 +150,7 @@ window.onload = function() {
         turn = 1;
         b1filled = true;
         b1win = "o";
+        saveMark("o","b1");
       }
 
     }
@@ -170,6 +174,7 @@ window.onload = function() {
         turn = 2;
         c1filled = true;
         c1win = "x";
+        saveMark("x","c1");
 
       } else {
         document.querySelector("#c1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -177,6 +182,7 @@ window.onload = function() {
         turn = 1;
         c1filled = true;
         c1win = "o";
+        saveMark("o","c1");
       }
 
     }
@@ -200,6 +206,7 @@ window.onload = function() {
         turn = 2;
         a2filled = true;
         a2win = "x";
+        saveMark("x","a2");
 
       } else {
         document.querySelector("#a2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -207,6 +214,7 @@ window.onload = function() {
         turn = 1;
         a2filled = true;
         a2win = "o";
+        saveMark("o","a2");
       }
 
     }
@@ -231,6 +239,7 @@ window.onload = function() {
         turn = 2;
         b2filled = true;
         b2win = "x";
+        saveMark("x","b2");
 
       } else {
         document.querySelector("#b2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -238,6 +247,7 @@ window.onload = function() {
         turn = 1;
         b2filled = true;
         b2win = "o";
+        saveMark("o","b2");
       }
 
     }
@@ -261,6 +271,7 @@ window.onload = function() {
         turn = 2;
         c2filled = true;
         c2win = "x";
+        saveMark("x","c2");
 
       } else {
         document.querySelector("#c2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -268,6 +279,7 @@ window.onload = function() {
         turn = 1;
         c2filled = true;
         c2win = "o";
+        saveMark("o","c2");
       }
 
     }
@@ -292,6 +304,7 @@ window.onload = function() {
         turn = 2;
         a3filled = true;
         a3win = "x";
+        saveMark("x","a3");
 
       } else {
         document.querySelector("#a3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -299,6 +312,7 @@ window.onload = function() {
         turn = 1;
         a3filled = true;
         a3win = "o";
+        saveMark("o","a3");
       }
 
     }
@@ -323,6 +337,7 @@ window.onload = function() {
         turn = 2;
         b3filled = true;
         b3win = "x";
+        saveMark("x","b3");
 
       } else {
         document.querySelector("#b3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -330,6 +345,7 @@ window.onload = function() {
         turn = 1;
         b3filled = true;
         b3win = "o";
+        saveMark("o","b3");
       }
 
     }
@@ -354,6 +370,7 @@ window.onload = function() {
         turn = 2;
         c3filled = true;
         c3win = "x";
+        saveMark("x","c3");
 
       } else {
         document.querySelector("#c3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -361,6 +378,7 @@ window.onload = function() {
         turn = 1;
         c3filled = true;
         c3win = "o";
+        saveMark("o","c3");
       }
 
     }
