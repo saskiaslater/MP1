@@ -331,7 +331,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
@@ -350,7 +350,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
@@ -369,7 +369,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
@@ -388,7 +388,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
@@ -407,7 +407,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
@@ -426,7 +426,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
@@ -445,7 +445,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
