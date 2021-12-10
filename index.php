@@ -1,4 +1,3 @@
-<?
 <!DOCTYPE html>
 <html>
 
@@ -25,39 +24,13 @@
 
 	<body>
   
- // if( ! playersRegistered()) {
- //     header("location: index.php");
-//  }
 
-// if ($_POST['cell']) {
-  
-//  if($win) {
-  //  header("location: result.php?player=") .getTurn());
-    
- // }
-// }
+   <form action="add-record.php" method="get" onsubmit="">
+           
+       <p>Player Mark <input type="text" name="playmark" id="playmark" placeholder="" required></p>
+       <p>Player Space <input type="text" name="playspace" id="playspace" placeholder="" required></p>
 
-//if(playCounts() >=9 {
- // header("location: result.php");
-//}
-   
-
-   <form action="output.php" method="get" onsubmit="">
-     
-     <p>Top color: <input type ="color" name="topColor" id="topColor" value="#000099"></p>
-     <p>Bottom Color: <input type="color" name="bottomColor" id="bottomColor" value="#A8B5ED";</p>
-     
-     <p>number of buildings: <select name="buildings" id="buildings">
-       <option value="10">10</option>
-       <option value="15">15</option>
-       <option value="20">20</option>
-     </select></p> 
-       
-       <p>Quote: <textarea name="quote" id="quote" rows="4"></textarea></p>
-       
-       <p>Quote Attribution: <input type="text" name="attribute" id="attribute" placeholder="Who said it?" required></p>
-       
-       <p><button type="submit">Make the skyline!</button></p>
+     <p><button type="submit" <h1>Submit</h1></button></p>
        
     </form>
     
@@ -67,5 +40,4 @@
 	</body>
 
 </html>
-   
- ?>
+  

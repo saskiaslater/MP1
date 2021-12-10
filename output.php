@@ -1,55 +1,56 @@
 <?
   // default values for output 
-$quoteText = "The city is not a concrete jungle. It is a human zoo.";
-$quoteAttribute = "DESMOND MORRIS";
-$colorTop = "#000099;"
-$colorBottom = "#ffaa77"
-$numberofBuildings = 10;
+// $quoteText = "The city is not a concrete jungle. It is a human zoo.";
+//$quoteAttribute = "DESMOND MORRIS";
+//$colorTop = "#000099;"
+//$colorBottom = "#ffaa77"
+//$numberofBuildings = 10;
 
-if ($_GET["topColor"]) {
-  $colorTyp
-  
+if ($_GET["playmark"]) {
+  $playmark = $_GET["playmark"];
+  echo "<p>Player Mark and Player Space!</p>";
 }
+
 
 //Output HTML/PHP for Skyline demo from Unit 3, Lesson 3/4
 
   //default values for output, in case the 
-  $quoteText = "";
-  $quoteAttribute = "";
-  $colorTop = ""; 
-  $colorBottom = "";
-  $numberofTurns = 9;
+//  $quoteText = "";
+//  $quoteAttribute = "";
+//  $colorTop = ""; 
+//  $colorBottom = "";
+//  $numberofTurns = 9;
 
 
 // if data was submitted for the top row of boxes, let's use it...
-if ($_GET["colorTop"]) {
-  $colorTop = $_GET["topColor"];
+if ($_GET["playspace"]) {
+  $playspace = $_GET["playspace"];
 }
 
 // if data was submitted for the second row of boxes, let's use it...
-if ($_GET["bottomColor"] {
-  $colorBottom = $_GET["bottomColor"];
-}
+//if ($_GET["bottomColor"] {
+//  $colorBottom = $_GET["bottomColor"];
+// }
     
 //if data was submitted for the third row of boxes, let's use it...
 //if ($_GET["quote"]) {
 //  $quoteText = $_GET["quote"];
   
-if (filter_var( htmlspecialchars( $_GET["quote"]), FILTER_SANITIZE_STRING)) {
-    $quoteText = filter_var( htmlspecialchars( $_GET["quote"] ), FILTER_SANITIZE_STRING);
+// if (filter_var( htmlspecialchars( $_GET["quote"]), FILTER_SANITIZE_STRING)) {
+ //   $quoteText = filter_var( htmlspecialchars( $_GET["quote"] ), FILTER_SANITIZE_STRING);
       
- }
+// }
   
     
 //if data was submitted to play again 
-if ($_GET["attribute"]) {
-  $quoteAttribute = $_GET["attribute"];
-}
+// if ($_GET["attribute"]) {
+ // $quoteAttribute = $_GET["attribute"];
+// }
     
 //if data was submitted for 
-if ($_GET["buildings"]) {
-  $numberOfBuildings = $_GET["buildings"]
-}
+// if ($_GET["buildings"]) {
+ //  $numberOfBuildings = $_GET["buildings"]
+// }
 
 
 
