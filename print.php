@@ -1,5 +1,6 @@
 <?
 
+
 // require the database initialization and functions
 require 'database-config.php';
 require 'functions.php';
@@ -9,7 +10,7 @@ require 'functions.php';
 $sql = "SELECT * FROM $databaseTable"; 
 $result = $db->query($sql);
 if (!$result) die("Select Error: " . $sql . "<br>" . $db->error);
-
+/*
 $output = "<table>";
 
 // loop through $allAppts with each $row available as $appt
@@ -26,8 +27,16 @@ foreach ($result as $appt) {
 $output .= "</table>";
 
 echo $output;
+*/
 
+$rows = array();
+foreach ($result as $appt) {
+  $rows[] = $appt;
+}
 
+$JSON = json_encode($rows);
+
+echo $JSON;
 
 
 ?>

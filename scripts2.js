@@ -1,3 +1,70 @@
+// function to asynchronously fetch file contents from path/URL "fromFile" 
+// and insert them in the DOM object found with "whereTo" -- note this
+// uses document.querySelector, so use CSS notation on "whereTo"
+
+function loadDatabase() {
+
+  // 1. creating a new XMLHttpRequest object
+  ajax = new XMLHttpRequest();
+
+  // 2. defines the GET/POST method, the source, and the async value of the AJAX object
+  ajax.open("GET", "print.php", true);
+
+  // 3. provides code to do something in response to the AJAX request
+  ajax.onreadystatechange = function() {
+
+    if ((this.readyState == 4) && (this.status == 200)) { // if .readyState is 4, the process is done; and if .status is 200, there were no HTTP errors
+
+      // update the board based on info from the server
+      console.log("Output: " + this.responseText);
+
+    } else if ((this.readyState == 4) && (this.status != 200)) { // if .readyState is 4, the process is done; and if .status is NOT 200, output the error into the console
+
+      console.log("Error: " + this.responseText);
+
+    }
+
+  } // end ajax.onreadystatechange function
+
+  // 4. let's go -- initiate request and process the responses
+  ajax.send();
+
+}
+
+function saveMark(mark, space) { // put this into each function to find o and x
+
+  // 1. creating a new XMLHttpRequest object
+  ajax = new XMLHttpRequest();
+  
+  ajaxURL = "add-record.php?playmark=O&playspace=C3";
+
+  // 2. defines the GET/POST method, the source, and the async value of the AJAX object
+  ajax.open("GET", "print.php", true);
+
+  // 3. provides code to do something in response to the AJAX request
+  ajax.onreadystatechange = function() {
+
+    if ((this.readyState == 4) && (this.status == 200)) { // if .readyState is 4, the process is done; and if .status is 200, there were no HTTP errors
+
+      // update the board based on info from the server
+      console.log("Output: " + this.responseText);
+
+    } else if ((this.readyState == 4) && (this.status != 200)) { // if .readyState is 4, the process is done; and if .status is NOT 200, output the error into the console
+
+      console.log("Error: " + this.responseText);
+
+    }
+
+  } // end ajax.onreadystatechange function
+
+  // 4. let's go -- initiate request and process the responses
+  ajax.send();
+
+}
+
+
+
+
 turn = 1;
 winner = 0;
 a1filled = false;
@@ -21,6 +88,9 @@ c3win = "";
 window.onload = function() {
 
   // add a click function to the <div> with id="a1"
+  
+  loadDatabase(); 
+  setInterval(function(){ loadDatabase(); }, 1000);
 
 
 
@@ -37,6 +107,8 @@ window.onload = function() {
         turn = 2;
         a1filled = true;
         a1win = "x";
+        
+        
 
       } else {
         document.querySelector("#a1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -44,6 +116,7 @@ window.onload = function() {
         turn = 1;
         a1filled = true;
         a1win = "o";
+        
       }
 
     }
