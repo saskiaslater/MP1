@@ -310,15 +310,15 @@ function checkWin() {
 
   if ((a1win == "x") && (b1win == "x") && (c1win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
-    location.reload();
+    location.replace("wins.php");
     return false;
 
   }
   if ((a1win == "o") && (b1win == "o") && (c1win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -329,7 +329,7 @@ function checkWin() {
 
   if ((a2win == "x") && (b2win == "x") && (c2win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -337,7 +337,7 @@ function checkWin() {
   }
   if ((a2win == "o") && (b2win == "o") && (c2win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -348,7 +348,7 @@ function checkWin() {
 
   if ((a3win == "x") && (b3win == "x") && (c3win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -356,7 +356,7 @@ function checkWin() {
   }
   if ((a3win == "o") && (b3win == "o") && (c3win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -367,7 +367,7 @@ function checkWin() {
 
   if ((a1win == "x") && (a2win == "x") && (a3win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -375,7 +375,7 @@ function checkWin() {
   }
   if ((a1win == "o") && (a2win == "o") && (a3win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -386,7 +386,7 @@ function checkWin() {
 
   if ((b1win == "x") && (b2win == "x") && (b3win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -394,7 +394,7 @@ function checkWin() {
   }
   if ((b1win == "o") && (b2win == "o") && (b3win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -405,7 +405,7 @@ function checkWin() {
 
   if ((c1win == "x") && (c2win == "x") && (c3win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -413,7 +413,7 @@ function checkWin() {
   }
   if ((c1win == "o") && (c2win == "o") && (c3win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -424,7 +424,7 @@ function checkWin() {
 
   if ((a3win == "x") && (b2win == "x") && (c1win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -432,7 +432,7 @@ function checkWin() {
   }
   if ((a3win == "o") && (b2win == "o") && (c1win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -443,7 +443,7 @@ function checkWin() {
 
   if ((c3win == "x") && (b2win == "x") && (a1win == "x")) {
 
-    alert("Player 1 Wins!!");
+    alert("X Wins!!");
     winner = 1;
     location.reload();
     return false;
@@ -451,7 +451,7 @@ function checkWin() {
   }
   if ((c3win == "o") && (b2win == "o") && (a1win == "o")) {
 
-    alert("Player 2 Wins!!");
+    alert("O Wins!!");
     winner = 1;
     location.reload();
     return false;
