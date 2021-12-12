@@ -40,7 +40,7 @@
       <!-- making a table to map out tic tac toe board -->
       <tr>
         <td>
-          <div id="a1">
+          <div id="a1"> <!-- id for each square on the board -->
             <img>
             <!-- don't need any source on the img tag, we'll set that in JavaScript -->
           </div>
