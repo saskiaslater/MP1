@@ -85,6 +85,7 @@ b3filled = false;
 b3win = "";
 c3filled = false;
 c3win = "";
+//starting conditions so that the conditions will change once squares have been clicked
 window.onload = function() {
 
   // add a click function to the <div> with id="a1"
@@ -127,7 +128,8 @@ window.onload = function() {
       checkWin();
     }, 100);
   } // end #a1 onclick function
-
+//for one square, a1 if it is player 1's turn it will use X and if it is player 2's turn it will use O
+  //other conditions change once a box is clicked 
 
 
 
@@ -160,7 +162,7 @@ window.onload = function() {
     }, 100);
   }
 
-
+//same as first box, just for b1
 
 
   document.querySelector("#c1").onclick = function() {
@@ -398,6 +400,9 @@ window.onload = function() {
 } // end of window.onload
 
 function checkWin() {
+  
+  //this function is checking all of the possible combinations to win for X's and O's
+  //once there is a winner, an alert shows up to say who won
 
   if ((a1win == "x") && (b1win == "x") && (c1win == "x")) {
 
@@ -405,6 +410,8 @@ function checkWin() {
     winner = 1;
     location.replace("wins.php");
     return false;
+    //screen reloads after someone wins
+    //sends screen to wins.php so that the score count can go up
 
   }
   if ((a1win == "o") && (b1win == "o") && (c1win == "o")) {
@@ -413,6 +420,7 @@ function checkWin() {
     winner = 1;
     location.reload();
     return false;
+    //same as above but if O won
 
   }
 
