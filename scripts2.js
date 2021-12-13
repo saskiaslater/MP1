@@ -17,6 +17,11 @@ function loadDatabase() {
 
       // update the board based on info from the server
       console.log("Output: " + this.responseText);
+      
+      testresponse = '[{"id":"6","appt":"2021-12-10 20:41:25","player_mark":"X","player_space":"A1"},{"id":"7","appt":"2021-12-10 20:41:32","player_mark":"O","player_space":"B2"},{"id":"8","appt":"2021-12-10 21:58:25","player_mark":"O","player_space":"C3"}]';
+      
+      incomingObject = JSON.parse(testresponse);
+      console.log(incomingObject);
 
     } else if ((this.readyState == 4) && (this.status != 200)) { // if .readyState is 4, the process is done; and if .status is NOT 200, output the error into the console
 
@@ -404,7 +409,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -423,7 +428,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -442,7 +447,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -461,7 +466,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -480,7 +485,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -499,7 +504,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -518,7 +523,7 @@ function checkWin() {
 
     alert("X Wins!!");
     winner = 1;
-    location.replace("wins.php");
+    location.reload();
     return false;
 
   }
@@ -542,3 +547,4 @@ function checkWin() {
 
 
 }
+

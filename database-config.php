@@ -3,7 +3,7 @@
 // This file opens a MySQL connection to the database you created in cPanel
 
 // define database values
-$databaseServer = "165.227.218.225"; // IP number of database, may be on the same server
+$databaseServer = "165.227.218.225"; "138.68.243.154"; // IP number of database, may be on the same server
 $databaseName = "marleysc_477tictactoe"; // database name
 $databaseUser = "marleysc_tictactoeDB"; // user name
 $databasePassword = "X4mWst06oMK";  // user password

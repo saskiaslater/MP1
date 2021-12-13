@@ -2,7 +2,7 @@
 
 
 // require the database initialization and functions
-require 'database-config.php';
+require 'database-config.php'; // allows the database-config.php file to connect to this in order for the information to be wiped from the c panel 
 require 'functions.php';
 
 

@@ -3,10 +3,10 @@
 // This file contains one function to generate a table of information of data
 
 // output a table of results, including a checkbox if $includeCheckbox is true
-// receive the appointments as a database object into $allAppts
+// receive the player move and placement of x or o as a database object into $allAppts
 function outputApptResults($allAppts, $includeCheckbox = false) {
 	
-	$counter = 1;
+	$counter = 1; //reload the gameboard every second 
 	$output = "";
 	$output .= "<table cellpadding='10'>\n
 							<tr>\n";
@@ -18,7 +18,7 @@ function outputApptResults($allAppts, $includeCheckbox = false) {
 	
 	// loop through $allAppts with each $row available as $appt
 	foreach ($allAppts as $appt) {
-		$output .= "\t<tr style='background-color: #ddd;'>\n";
+		$output .= "\t<tr style='background-color: #ddd;'>\n"; // color of table that shows inputed data from form in dummy.php
 		
 		if ($includeCheckbox) {
 			$checkboxID = "appt[" . $counter . "]";
