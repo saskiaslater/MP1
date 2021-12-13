@@ -41,7 +41,7 @@ function saveMark(mark, space) { // put this into each function to find o and x
   
 
   // 2. defines the GET/POST method, the source, and the async value of the AJAX object
-  ajax.open("GET", "print.php", true);
+  ajax.open("GET", ajaxURL, true);
 
   // 3. provides code to do something in response to the AJAX request
   ajax.onreadystatechange = function() {
