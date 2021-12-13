@@ -36,7 +36,9 @@ function saveMark(mark, space) { // put this into each function to find o and x
   // 1. creating a new XMLHttpRequest object
   ajax = new XMLHttpRequest();
   
-  ajaxURL = "add-record.php?playmark=O&playspace=C3";
+ 
+  ajaxURL = "add-record.php" + "?" + "playmark=" + mark + "&" + "playspace=" + space;
+  
 
   // 2. defines the GET/POST method, the source, and the async value of the AJAX object
   ajax.open("GET", "print.php", true);
@@ -109,6 +111,7 @@ window.onload = function() {
         a1filled = true;
         a1win = "x";
         saveMark("x","a1");
+      
         
         
 
