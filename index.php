@@ -37,9 +37,10 @@
 
 
     <tbody>
+      <!-- making a table to map out tic tac toe board -->
       <tr>
         <td>
-          <div id="a1">
+          <div id="a1"> <!-- id for each square on the board -->
             <img>
             <!-- don't need any source on the img tag, we'll set that in JavaScript -->
           </div>
@@ -96,7 +97,7 @@
 
   
   <div id="replay">
-    <button onclick="location.reload();">Play Again</button>
+    <button onclick="location.reload();">Play Again</button> <!-- makes the play again button reload the page to clear the board -->
   </div>
 
 

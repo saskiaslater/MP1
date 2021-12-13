@@ -41,7 +41,9 @@ function saveMark(mark, space) { // put this into each function to find o and x
   // 1. creating a new XMLHttpRequest object
   ajax = new XMLHttpRequest();
   
-  ajaxURL = "add-record.php?playmark=O&playspace=C3";
+ 
+  ajaxURL = "add-record.php" + "?" + "playmark=" + mark + "&" + "playspace=" + space;
+  
 
   // 2. defines the GET/POST method, the source, and the async value of the AJAX object
   ajax.open("GET", "print.php", true);
@@ -90,6 +92,7 @@ b3filled = false;
 b3win = "";
 c3filled = false;
 c3win = "";
+//starting conditions so that the conditions will change once squares have been clicked
 window.onload = function() {
 
   // add a click function to the <div> with id="a1"
@@ -112,6 +115,8 @@ window.onload = function() {
         turn = 2;
         a1filled = true;
         a1win = "x";
+        saveMark("x","a1");
+      
         
         
 
@@ -121,6 +126,7 @@ window.onload = function() {
         turn = 1;
         a1filled = true;
         a1win = "o";
+        saveMark("o","a1");
         
       }
 
@@ -130,7 +136,8 @@ window.onload = function() {
       checkWin();
     }, 100);
   } // end #a1 onclick function
-
+//for one square, a1 if it is player 1's turn it will use X and if it is player 2's turn it will use O
+  //other conditions change once a box is clicked 
 
 
 
@@ -145,6 +152,7 @@ window.onload = function() {
         turn = 2;
         b1filled = true;
         b1win = "x";
+        saveMark("x","b1");
 
       } else {
         document.querySelector("#b1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -152,6 +160,7 @@ window.onload = function() {
         turn = 1;
         b1filled = true;
         b1win = "o";
+        saveMark("o","b1");
       }
 
     }
@@ -161,7 +170,7 @@ window.onload = function() {
     }, 100);
   }
 
-
+//same as first box, just for b1
 
 
   document.querySelector("#c1").onclick = function() {
@@ -175,6 +184,7 @@ window.onload = function() {
         turn = 2;
         c1filled = true;
         c1win = "x";
+        saveMark("x","c1");
 
       } else {
         document.querySelector("#c1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -182,6 +192,7 @@ window.onload = function() {
         turn = 1;
         c1filled = true;
         c1win = "o";
+        saveMark("o","c1");
       }
 
     }
@@ -205,6 +216,7 @@ window.onload = function() {
         turn = 2;
         a2filled = true;
         a2win = "x";
+        saveMark("x","a2");
 
       } else {
         document.querySelector("#a2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -212,6 +224,7 @@ window.onload = function() {
         turn = 1;
         a2filled = true;
         a2win = "o";
+        saveMark("o","a2");
       }
 
     }
@@ -236,6 +249,7 @@ window.onload = function() {
         turn = 2;
         b2filled = true;
         b2win = "x";
+        saveMark("x","b2");
 
       } else {
         document.querySelector("#b2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -243,6 +257,7 @@ window.onload = function() {
         turn = 1;
         b2filled = true;
         b2win = "o";
+        saveMark("o","b2");
       }
 
     }
@@ -266,6 +281,7 @@ window.onload = function() {
         turn = 2;
         c2filled = true;
         c2win = "x";
+        saveMark("x","c2");
 
       } else {
         document.querySelector("#c2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -273,6 +289,7 @@ window.onload = function() {
         turn = 1;
         c2filled = true;
         c2win = "o";
+        saveMark("o","c2");
       }
 
     }
@@ -297,6 +314,7 @@ window.onload = function() {
         turn = 2;
         a3filled = true;
         a3win = "x";
+        saveMark("x","a3");
 
       } else {
         document.querySelector("#a3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -304,6 +322,7 @@ window.onload = function() {
         turn = 1;
         a3filled = true;
         a3win = "o";
+        saveMark("o","a3");
       }
 
     }
@@ -328,6 +347,7 @@ window.onload = function() {
         turn = 2;
         b3filled = true;
         b3win = "x";
+        saveMark("x","b3");
 
       } else {
         document.querySelector("#b3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -335,6 +355,7 @@ window.onload = function() {
         turn = 1;
         b3filled = true;
         b3win = "o";
+        saveMark("o","b3");
       }
 
     }
@@ -359,6 +380,7 @@ window.onload = function() {
         turn = 2;
         c3filled = true;
         c3win = "x";
+        saveMark("x","c3");
 
       } else {
         document.querySelector("#c3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
@@ -366,6 +388,7 @@ window.onload = function() {
         turn = 1;
         c3filled = true;
         c3win = "o";
+        saveMark("o","c3");
       }
 
     }
@@ -385,6 +408,9 @@ window.onload = function() {
 } // end of window.onload
 
 function checkWin() {
+  
+  //this function is checking all of the possible combinations to win for X's and O's
+  //once there is a winner, an alert shows up to say who won
 
   if ((a1win == "x") && (b1win == "x") && (c1win == "x")) {
 
@@ -392,6 +418,8 @@ function checkWin() {
     winner = 1;
     location.replace("wins.php");
     return false;
+    //screen reloads after someone wins
+    //sends screen to wins.php so that the score count can go up
 
   }
   if ((a1win == "o") && (b1win == "o") && (c1win == "o")) {
@@ -400,6 +428,7 @@ function checkWin() {
     winner = 1;
     location.reload();
     return false;
+    //same as above but if O won
 
   }
 
