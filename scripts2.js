@@ -446,7 +446,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
       //same as above but if O won
 
@@ -466,7 +466,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }
@@ -485,7 +485,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }
@@ -504,7 +504,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }
@@ -523,7 +523,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }
@@ -542,7 +542,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }
@@ -561,7 +561,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }
@@ -580,7 +580,7 @@ function loadDatabase() {
 
       alert("O Wins!!");
       winner = 1;
-      location.reload();
+      location.replace("owins.php");
       return false;
 
     }

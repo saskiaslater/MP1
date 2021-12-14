@@ -28,7 +28,12 @@
   <h1>TIC-TAC-TOE</h1>
   
   <div id="wincount">
-    <p><strong># OF WINS: <?= $_COOKIE["gameCookie"] ?></strong><a href= "clear-cookies.php">Reset</a></p>
+    <p><strong># OF X WINS: <?= $_COOKIE["gameCookie"] ?></strong><a href= "clear-cookies.php">Reset</a></p>
+  
+  </div>
+  
+   <div id="owincount">
+    <p><strong># OF O WINS: <?= $_COOKIE["OgameCookie"] ?></strong><a href= "clear-cookies.php">Reset</a></p>
   
   </div>
   
