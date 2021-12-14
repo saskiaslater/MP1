@@ -29,14 +29,18 @@ if (!$result) die("Insert Error: " . $sql . "<br>" . $db->error);
 
 // onward to the HTML!
 
-?><!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Add Record</title>
-</head>
-<body>
+?>
+  <!DOCTYPE html>
+  <html>
 
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Record</title>
+  </head>
+
+  <body>
+
+  </body>
+
+  </html>

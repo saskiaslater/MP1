@@ -26,18 +26,18 @@
 <body>
 
   <h1>TIC-TAC-TOE</h1>
-  
+
   <div id="wincount">
-    <p><strong># OF X WINS: <?= $_COOKIE["gameCookie"] ?></strong><a href= "clear-cookies.php">Reset</a></p>
-  
+    <p><strong># OF X WINS: <?= $_COOKIE["gameCookie"] ?></strong><a href="clear-cookies.php">Reset</a></p>
+
   </div>
-  
-   <div id="owincount">
-    <p><strong># OF O WINS: <?= $_COOKIE["OgameCookie"] ?></strong><a href= "clear-cookies.php">Reset</a></p>
-  
+
+  <div id="owincount">
+    <p><strong># OF O WINS: <?= $_COOKIE["OgameCookie"] ?></strong><a href="clear-cookies.php">Reset</a></p>
+
   </div>
-  
-  
+
+
   <table>
 
 
@@ -45,7 +45,8 @@
       <!-- making a table to map out tic tac toe board -->
       <tr>
         <td>
-          <div id="a1"> <!-- id for each square on the board -->
+          <div id="a1">
+            <!-- id for each square on the board -->
             <img>
             <!-- don't need any source on the img tag, we'll set that in JavaScript -->
           </div>
@@ -100,9 +101,10 @@
     </tbody>
   </table>
 
-  
+
   <div id="replay">
-    <button onclick="location.reload();">Play Again</button> <!-- makes the play again button reload the page to clear the board -->
+    <button onclick="location.reload();">Play Again</button>
+    <!-- makes the play again button reload the page to clear the board -->
   </div>
 
 

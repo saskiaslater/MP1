@@ -26,32 +26,36 @@ if ($search != "") {
 
 // onward to the HTML!
 
-?><!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Search Schedule</title>
-</head>
-<body>
+?>
+  <!DOCTYPE html>
+  <html>
 
-<form method="POST">
-	<table>
-		<tr>
-			<td>Search for:</td>
-			<td><input id="searchText" name="searchText" type="text"></td>
-		</tr>
-		<tr>
-			<td colspan="2"><button type="submit">Search</button></td>
-		</tr>
-	</table>
-</form>
-<ul>
-	<li><a href="add-record.php">Add Record</a></li>
-	<li><a href="index.php">Read Schedule</a></li>
-	<li><a href="search-schedule.php">Search Schedule</a></li>
-</ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Schedule</title>
+  </head>
+
+  <body>
+
+    <form method="POST">
+      <table>
+        <tr>
+          <td>Search for:</td>
+          <td><input id="searchText" name="searchText" type="text"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Search</button></td>
+        </tr>
+      </table>
+    </form>
+    <ul>
+      <li><a href="add-record.php">Add Record</a></li>
+      <li><a href="index.php">Read Schedule</a></li>
+      <li><a href="search-schedule.php">Search Schedule</a></li>
+    </ul>
 
 
-</body>
-</html>
+  </body>
+
+  </html>

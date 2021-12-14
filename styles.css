@@ -28,17 +28,18 @@ body {
 }
 
 /* making the <div> tags in the table have a forced height and width so they can be clicked on */
+
 table td div {
-	display: block;
-	margin-left: 25px;
-	width: 50px;
-	height: 50px;
+  display: block;
+  margin-left: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 img {
-	width: 50px;
-	height: 50px;
-	display: none;
+  width: 50px;
+  height: 50px;
+  display: none;
 }
 
 button {
@@ -53,7 +54,6 @@ button {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  
 }
 
 #replay {
@@ -67,7 +67,6 @@ button {
   font-size: 25px;
   color: #61676B;
   margin-left: 100px;
-
 }
 
 #owincount {
@@ -76,13 +75,4 @@ button {
   font-size: 25px;
   color: #61676B;
   margin-left: 100px;
-
 }
-
-
-
-
-
-
-
-
