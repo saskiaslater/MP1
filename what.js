@@ -8,7 +8,4 @@
       incomingObject[0].player_mark
       incomingObject[0].player_space
       
-      for (let i = 0, i < 5; i++) {
-        text += "" + i + "<br>";
-        
-      }
+     
