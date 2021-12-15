@@ -42,6 +42,8 @@ function loadDatabase() {
         // the variable playedSpace so you can fill in the appropriate square 
         // with the variable playedMark and also determine which mark goes next
         // (it's the opposite of whichever mark went last)
+        
+        if (playedSpace == )
 
       }
 
