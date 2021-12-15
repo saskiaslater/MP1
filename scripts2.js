@@ -50,6 +50,11 @@ function loadDatabase() {
 
           if (playedMark == "x") {
 
+            document.querySelector("#a1 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
+            document.querySelector("#a1 img").style.display = "block";
+            turn = 2;
+        
+        
             // code to put an X graphic in the A1 slot
 
             // also set the current mark (for the next turn) to “o”
@@ -57,6 +62,10 @@ function loadDatabase() {
 
 
           } else {
+            
+            document.querySelector("#a1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
+            document.querySelector("#a1 img").style.display = "block";
+            turn = 1;
 
             // code to put an O graphic in the A1 slot
 
