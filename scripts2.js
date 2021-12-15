@@ -42,8 +42,245 @@ function loadDatabase() {
         // the variable playedSpace so you can fill in the appropriate square 
         // with the variable playedMark and also determine which mark goes next
         // (it's the opposite of whichever mark went last)
-        
-        if (playedSpace == )
+
+        if (playedSpace == "a1") {
+
+
+
+          if (playedMark == "x") {
+
+            // code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+        if (playedSpace == "a2") {
+
+
+
+          if (playedMark == "x") {
+
+            // code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+        if (playedSpace == "a3") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+
+        if (playedSpace == "b1") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+        if (playedSpace == "b2") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+        if (playedSpace == "b3") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+
+        if (playedSpace == "c1") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+        if (playedSpace == "c2") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+        if (playedSpace == "c3") {
+
+
+
+          if (playedMark == "x") {
+
+            // your code to put an X graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “o”
+
+
+
+          } else {
+
+            // your code to put an O graphic in the A1 slot
+
+            // also set the current mark (for the next turn) to “x”
+
+
+
+          }
+
+        }
+
+
+
+
+
+
 
       }
 
