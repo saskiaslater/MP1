@@ -23,7 +23,8 @@ function loadDatabase() {
       console.log("Output: " + this.responseText);
 
       // sample JSON text string containing information with the column names from the database
-      testresponse = '[{"id":"6","appt":"2021-12-10 20:41:25","player_mark":"X","player_space":"A1"},{"id":"7","appt":"2021-12-10 20:41:32","player_mark":"O","player_space":"B2"},{"id":"8","appt":"2021-12-10 21:58:25","player_mark":"X","player_space":"C3"}]';
+      incomingObject = JSON.parse(this.responseText);
+
 
       // parse the sample data into JavaScript objects (in an array)
       incomingObject = JSON.parse(testresponse);
