@@ -24,10 +24,7 @@ function loadDatabase() {
 
       // sample JSON text string containing information with the column names from the database
       incomingObject = JSON.parse(this.responseText);
-
-
-      // parse the sample data into JavaScript objects (in an array)
-      incomingObject = JSON.parse(testresponse);
+     
 
       // loop through the array using "x" as the incrementing variable
       for (x = 0; x < incomingObject.length; x++) {
@@ -53,8 +50,8 @@ function loadDatabase() {
             document.querySelector("#a1 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
             document.querySelector("#a1 img").style.display = "block";
             turn = 2;
-        
-        
+
+
             // code to put an X graphic in the A1 slot
 
             // also set the current mark (for the next turn) to “o”
@@ -62,7 +59,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#a1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#a1 img").style.display = "block";
             turn = 1;
@@ -84,10 +81,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#a2 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#a2 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#a2 img").style.display = "block";
+            turn = 2;
 
             // code to put an X graphic in the A1 slot
 
@@ -96,7 +93,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#a2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#a2 img").style.display = "block";
             turn = 1;
@@ -118,10 +115,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#a3 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#a3 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#a3 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -130,7 +127,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#a3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#a3 img").style.display = "block";
             turn = 1;
@@ -153,10 +150,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#b1 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#b1 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#b1 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -165,7 +162,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#b1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#b1 img").style.display = "block";
             turn = 1;
@@ -187,10 +184,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#b2 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#b2 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#b2 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -199,7 +196,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#b2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#b2 img").style.display = "block";
             turn = 1;
@@ -221,10 +218,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#b3 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#b3 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#b3 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -233,7 +230,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#b3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#b3 img").style.display = "block";
             turn = 1;
@@ -256,10 +253,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#c1 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#c1 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#c1 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -268,7 +265,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#c1 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#c1 img").style.display = "block";
             turn = 1;
@@ -290,10 +287,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#c2 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#c2 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#c2 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -302,7 +299,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#c2 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#c2 img").style.display = "block";
             turn = 1;
@@ -323,10 +320,10 @@ function loadDatabase() {
 
 
           if (playedMark == "x") {
-            
+
             document.querySelector("#c3 img").src = "https://img.icons8.com/ios-filled/50/000000/x.png";
-        document.querySelector("#c3 img").style.display = "block";
-        turn = 2;
+            document.querySelector("#c3 img").style.display = "block";
+            turn = 2;
 
             // your code to put an X graphic in the A1 slot
 
@@ -335,7 +332,7 @@ function loadDatabase() {
 
 
           } else {
-            
+
             document.querySelector("#c3 img").src = "https://img.icons8.com/ios-filled/50/000000/o.png";
             document.querySelector("#c3 img").style.display = "block";
             turn = 1;
