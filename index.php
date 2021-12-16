@@ -103,7 +103,7 @@
 
 
   <div id="replay">
-    <button onclick="location.reload();">Play Again</button>
+    <button onclick="location.href = 'wipe.php';"/>Play Again</button>
     <!-- makes the play again button reload the page to clear the board -->
   </div>
 

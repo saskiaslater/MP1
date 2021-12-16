@@ -7,5 +7,6 @@ require 'functions.php';
 		$sql = "DELETE FROM $databaseTable"; // allows the selected information to be deleted from the database 
 		$result = $db->query($sql);
 		if (!$result) die("Delete Error: " . $sql . "<br>" . $db->error);
+header("Location: index.php");
 
 ?>

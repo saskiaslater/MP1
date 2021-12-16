@@ -13,12 +13,12 @@ function loadDatabase() {
   // 3. provides code to do something in response to the AJAX request
   ajax.onreadystatechange = function() {
 
-    if ((this.readyState == 4) && (this.status == 200)) { // if .readyState is 4, the process is done; and if .status is 200, there were no HTTP errors
+    if ((this.readyState == 4) && (this.status != 200)) { // if .readyState is 4, the process is done; and if .status is 200, there were no HTTP errors
 
       // update the board based on info from the server
       console.log("Output: " + this.responseText);
 
-    } else if ((this.readyState == 4) && (this.status != 200)) { // if .readyState is 4, the process is done; and if .status is NOT 200, output the error into the console
+    } else if ((this.readyState == 4) && (this.status == 200)) { // if .readyState is 4, the process is done; and if .status is NOT 200, output the error into the console
 
       console.log("Output: " + this.responseText);
 
@@ -33,8 +33,6 @@ function loadDatabase() {
         playedSpace = incomingObject[x].player_space;
         playedMark = incomingObject[x].player_mark;
 
-        // example output just for this demo
-        document.body.innerHTML += "<p>" + playedSpace + ":" + playedMark + "</p>";
 
         // instead of that example output, you should do some IF statements on 
         // the variable playedSpace so you can fill in the appropriate square 
