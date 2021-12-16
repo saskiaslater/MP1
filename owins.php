@@ -11,4 +11,4 @@ if ( $_COOKIE["OgameCookie"] ) { //saves the information from each player when p
 
 setcookie("OgameCookie", $savedCookie, time() + (86400 * 30), "/");
 
-header("Location: index.php");
+header("Location: wipe.php");
